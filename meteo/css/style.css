@@ -1,0 +1,160 @@
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  background: #130f40;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto 70px auto;
+}
+
+input
+{
+	outline: none;
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #ff4757;
+  color: #f5f6fa;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  transition: background 0.4s ease-in-out;
+  outline: none;
+  margin-left: 50px;
+}
+
+input.submit:hover
+{
+	background: #EA2027;
+}
+
+.input input[type="text"]{
+  width: 450px;
+  height: 55px;
+  padding: 5px 10px;
+  border-bottom-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #f5f6fa;
+  background: #130f40;
+}
+
+input::placeholder
+{
+	color : #f5f6fa;
+}
+
+.card{
+  width: 50%;
+  background: #30336b;
+  height: 100%;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  /*display: hidden;*/
+}
+
+.card h1{
+  margin: 15px 0;
+  text-align: center;
+  color: #f5f6fa;
+}
+
+.card p{
+  text-align: center;
+  margin:20px 0 5px;
+  font-size:20px;
+  color: #f5f6fa;
+}
+
+p.temp{
+  font-size: 45px;
+}
+
+p.temp{
+  font-size: 45px;
+}
+
+img
+{
+	height: 50px;
+	width: 50px;
+	
+}
+
+.heading
+{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 25px;
+	color: #f5f6fa;
+}
+
+footer
+{
+	position: absolute;
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+	color: #f5f6fa;
+	padding-left: 50px;
+	padding-top: 150px;
+}
+
+.link a {
+  font-size: 18px;
+  color: #f5f6fa;
+  text-decoration: none;
+  transition: font-size 0.5s;
+  margin-left: 40px;
+}
+
+.link {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.link a:hover {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 650px) 
+{
+  input.submit {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) 
+{
+  .input input[type="text"]{
+    width: 200px;
+    font-size: 15px;
+  }
+  input[type="submit"]{
+    font-size: 10px;
+    padding: 10px, 20px;
+  }
+  footer{
+    padding-left: 5px;
+    font-size: 13px;
+  }
+  
+  .heading{
+    font-size: 18px;
+  }
+}
